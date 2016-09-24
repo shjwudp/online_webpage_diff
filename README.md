@@ -10,10 +10,12 @@
 
 ```javascript
 <script src="/static/js/shjwudp_diff.js"></script>
-SHJWUDP_DIFF.showdiff(left_dom, right_dom, legend);
+<script>
+    SHJWUDP_DIFF.showdiff(left_dom, right_dom, legend);
+</script>
 ```
 
-left_dom和right_dom是参与比对的两个DOM，legend是可选项，显示比对结果的统计
+left_dom 和 right_dom是参与比对的两个DOM，legend是可选项，显示比对结果的统计
 
 具体请看demo
 
